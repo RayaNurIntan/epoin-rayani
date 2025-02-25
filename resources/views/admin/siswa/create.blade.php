@@ -32,12 +32,12 @@
 <br><br>
 
 <label>Password</label><br>
-  <input type="Password" id="Password" name="Password">
+  <input type="Password" id="password" name="password">
 <br><br>
 
 <label for="password_confirmation" class="col-md-4 col-form-label text-start">Confirm Password</label>
 <div class="col-md-6">
-<input type="Password" class="form-control" id="password_confirmation" name="Password_confirmation">
+<input type="Password" class="form-control" id="password_confirmation" name="password_confirmation">
 </div>
 <br><br>
 
@@ -71,7 +71,7 @@
 <br><br>
 
 <label>Kelas</label><br>
-<select name="Kelas" required>
+<select name="kelas" required>
   <option value="">Pilih Kelas</option>
   <option value="1">1</option>
   <option value="2">2</option>
@@ -84,7 +84,7 @@
   <input type="text" name="hp" value="{{ old('hp') }}" required>
 <br><br>
 
-<button type="sumbit">SIMPAN DATA</button>
+<button type="submit">SIMPAN DATA</button>
 <button type="reset">RESET FORM</button>
 </form>
 

@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Data Siswa</h1>
-    <a href="{{ route('admin/dashboard') }}">Menu Utama</a><br>
+    <a href="{{ route('admin.dashboard') }}">Menu Utama</a><br>
     <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
     <br></br>
     <form id="logout-form" action="{{ route('logout') }}" method="POST">
